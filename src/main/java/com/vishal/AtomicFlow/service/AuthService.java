@@ -25,7 +25,7 @@ public class AuthService {
         user.setRole(Role.MEMBER);
         userRepository.save(user);
 
-        return jwtUtil.generateToken(user.getEmail(), user.getRole().name());
+        return jwtUtil.generateToken(user);
     }
 
     public String login(AuthRequest request) {
@@ -36,6 +36,6 @@ public class AuthService {
             throw new RuntimeException("Invalid password");
         }
 
-        return jwtUtil.generateToken(user.getEmail(), user.getRole().name());
+        return jwtUtil.generateToken(user);
     }
 }
