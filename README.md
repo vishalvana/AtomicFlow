@@ -7,11 +7,9 @@ AtomicFlow is a full-stack **Team Task Management System** that allows teams to 
 ##  Live Demo
 
 🔗 Frontend:
-https://atomic-frontend-production.up.railway.app/
-
+https://atomic-frontend-five.vercel.app/login
 🔗 Backend API:
-https://atomicflow-production-0974.up.railway.app
-
+https://atomicflow-production-d2ee.up.railway.app/
 ---
 
 ##  Repositories
