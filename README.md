@@ -10,6 +10,9 @@ AtomicFlow is a full-stack **Team Task Management System** that allows teams to 
 **https://atomic-frontend-five.vercel.app/login**
 ---
 
+Credential For Admin Login : Admin@test.com
+                     Password : Admin123
+
 
 
 🔗 Backend API:
